@@ -294,7 +294,6 @@
                         } else {
                             // Set the token value
                             $form.find('[name="token"]').val(response.id);
-                            alert(response.id);
                             // Or using Ajax
                             $.ajax({
                                 // You need to change the url option to your back-end endpoint
