@@ -1,0 +1,75 @@
+.custom-submit-form-button{
+    margin-right: -10px;
+    float: right;
+}
+
+/*************************Edit profile avatar upload start************************************/
+.btn-mdb-color {
+    background-color: #59698d!important;
+    color: #fff!important;
+}
+.md-form {
+    position: relative;
+    /*margin-top: 1.5rem;*/
+    margin-bottom: 1.5rem;
+}
+.file-field {
+    position: relative;
+}
+.z-depth-1-half {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    z-index: 1;
+    padding: 10px 20px;
+}
+
+.btn-rounded {
+    -webkit-border-radius: 10em;
+    border-radius: 10em;
+}
+.file-field input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0;
+}
+
+/*************************Edit profile avatar upload end************************************/
+
+.padding-40 {
+    padding:40px;
+}
+
+/***************form validation **********************/
+
+.error {
+    color: red;
+}
+
+label.error {
+    display: inline;
+}
+.help-block{
+    color: red
+}
